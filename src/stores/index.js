@@ -1,7 +1,10 @@
 import { configureStore } from '@reduxjs/toolkit'
+import homepageReducer from './homepage'
 
 const store = configureStore({
-    reducer: {}
+    reducer: {
+        homepage: homepageReducer
+    }
 })
 
 export default store
