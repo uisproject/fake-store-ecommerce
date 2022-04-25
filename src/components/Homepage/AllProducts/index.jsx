@@ -1,7 +1,7 @@
 import { useEffect } from 'react'
 import { useDispatch, useSelector } from 'react-redux'
 import { getAllProducts } from '@/stores/homepage'
-import ProductWrapper from '../ProductWrapper'
+import ProductWrapper from './ProductWrapper'
 
 const AllProducts = () => {
     const dispatch = useDispatch()
