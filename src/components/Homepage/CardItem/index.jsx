@@ -12,7 +12,7 @@ const CardItem = ({
 }) => {
     return(
         <>
-            <Link href='product/id' as={`product/${id}`} passHref >
+            <Link href={`/product/${id}`} passHref >
                 <a>
                     <div className="max-w-[200px] cursor-pointer">
                         <div className='min-h-[180px] min-w-[180px] h-[180px] w-[180px] mx-auto'>

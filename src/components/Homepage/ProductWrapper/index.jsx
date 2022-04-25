@@ -2,8 +2,8 @@ import Skeleton,{ SkeletonTheme } from 'react-loading-skeleton'
 import 'react-loading-skeleton/dist/skeleton.css'
 import CardItem from '../CardItem'
 
-const ProductWrapper = ({data,isLoading}) => {
-    console.log(data)
+const ProductWrapper = ({data = [],isLoading}) => {
+
     if(isLoading) return (
         <SkeletonTheme
             height='200px'
