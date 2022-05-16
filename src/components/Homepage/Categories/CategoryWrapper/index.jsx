@@ -40,6 +40,7 @@ const CategoryWrapper = ({ data = [], isLoading }) => {
 
   return (
     <div>
+      <CategoryItem label={"All"} />
       {data.map((item, idx) => {
         return <CategoryItem label={item} key={idx} />;
       })}
