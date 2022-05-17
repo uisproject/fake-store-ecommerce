@@ -1,5 +1,5 @@
 import CategoryItem from "../CategoryItem";
-import CustomSkeleton from "@/components/Generals/CustomSkeleton";
+import CustomSkeleton from "@/components/General/CustomSkeleton";
 
 const CategoryWrapper = ({ data = [], isLoading }) => {
   if (isLoading) {

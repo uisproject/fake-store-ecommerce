@@ -1,16 +1,16 @@
-import LogoIcon from "@/components/generals/LogoIcon/LogoIcon"
+import LogoIcon from "@/components/General/LogoIcon/LogoIcon";
 
-const Navbar = () =>{ 
-    return (
-        <div className="bg-white">
-            <div className="max-w-[1200px] mx-auto py-5">
-                <div>
-                    <LogoIcon />
-                </div>
-            </div>
-            <hr />
+const Navbar = () => {
+  return (
+    <div className="bg-white">
+      <div className="max-w-[1200px] mx-auto py-5">
+        <div>
+          <LogoIcon />
         </div>
-    )
-}
+      </div>
+      <hr />
+    </div>
+  );
+};
 
-export default Navbar
+export default Navbar;
