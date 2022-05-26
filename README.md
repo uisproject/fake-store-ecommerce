@@ -7,7 +7,7 @@ Creating an e-commerce app using next.js as CSR, and focused on using @redux/too
 Install my-project with npm
 
 ```bash
-  git clone git@github.com:uisproject/fake_store_ecommerce.git
+  git clone git@github.com:uisproject/project_fake_store_ecommerce_list_api.git
 ```
 
 Go to the project directory
